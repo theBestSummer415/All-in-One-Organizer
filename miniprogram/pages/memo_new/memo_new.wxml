@@ -1,0 +1,29 @@
+<!--pages/new/new.wxml-->
+<view class="new">
+  <view class='header'>
+    <view class='cancel' bindtap="cancel">
+      <i class="fa fa-close"></i>
+      取消
+    </view>
+    <view class="delete {{isEdit?'show-view':'hide-view'}}" bindtap="deleteModal">
+      <i class="fa fa-trash-o"></i>
+      删除
+    </view>
+    <view class='save' bindtap="save">
+      <i class="fa fa-save"></i>
+      保存
+    </view>
+  </view>
+
+  <view class='body'>
+    <view class='time'>
+      {{time}}
+    </view>
+    <view class='title'>
+      <textarea bindinput="memoTitle" placeholder="请输入标题" maxlength="-1" auto-focus="true" focus="true" value="{{title}}" />
+    </view>
+    <view class='content'>
+      <textarea bindinput="memoContent" placeholder="请输入备忘录内容" maxlength="-1" auto-height='true' value="{{content}}" />
+    </view>
+  </view>
+</view>
