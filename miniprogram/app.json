@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/list/index",
+    "pages/add/index",
+    "pages/file/index",
+    "pages/edit/index",
+    "pages/detail/index",
+
+    "pages/grade/grade",
+    "pages/class/class",
+    "pages/lessons/lessons",
+    "pages/memo/memo",
+    "pages/memo_new/memo_new",
+    "pages/days/index",
+    "pages/addEvent/index",
+    "pages/modifyEvent/index",
+    "pages/detailEvent/index",
+    "pages/choiseEmoji/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#115740",
+    "navigationBarTitleText": "All-in-One Organizer",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/list/index",
+      "text": "TodoList",
+      "iconPath": "images/icon/_todoList.png",
+      "selectedIconPath": "images/icon/todoList.png"
+    },
+    {
+      "pagePath": "pages/lessons/lessons",
+      "text": "Class",
+      "iconPath": "images/icon/_class.png",
+      "selectedIconPath": "images/icon/class.png"
+    },
+    {
+      "pagePath": "pages/memo/memo",
+      "text": "Memo",
+      "iconPath": "images/icon/_memo.png",
+      "selectedIconPath": "images/icon/memo.png"
+    },
+    {
+      "pagePath": "pages/days/index",
+      "text": "DaysMatter",
+      "iconPath": "images/icon/_days.png",
+      "selectedIconPath": "images/icon/days.png"
+    }],
+    "color": "#515151",
+    "selectedColor": "#115740"
+  },
+  "sitemapLocation": "sitemap.json",
+  "navigationBarTitleText":"FatButton",
+  "style": "v2",
+  "usingComponents": {
+    "cu-custom": "components/colorui/components/cu-custom",
+    "van-button": "/miniprogram_npm/vant-weapp/button/index",
+    "van-tabbar": "/miniprogram_npm/vant-weapp/tabbar/index",
+    "van-tabbar-item": "/miniprogram_npm/vant-weapp/tabbar-item/index",
+    "van-row": "/miniprogram_npm/vant-weapp/row/index",
+    "van-col": "/miniprogram_npm/vant-weapp/col/index",
+    "van-tab": "/miniprogram_npm/vant-weapp/tab/index",
+    "van-tabs": "/miniprogram_npm/vant-weapp/tabs/index",
+    "van-steps": "/miniprogram_npm/vant-weapp/steps/index",
+    "van-cell": "/miniprogram_npm/vant-weapp/cell/index",
+    "van-cell-group": "/miniprogram_npm/vant-weapp/cell-group/index",
+    "van-popup": "/miniprogram_npm/vant-weapp/popup/index",
+    "van-dialog": "/miniprogram_npm/vant-weapp/dialog/index",
+    "van-nav-bar": "/miniprogram_npm/vant-weapp/nav-bar/index",
+    "van-picker": "/miniprogram_npm/vant-weapp/picker/index",
+    "van-collapse": "/miniprogram_npm/vant-weapp/collapse/index",
+    "van-collapse-item": "/miniprogram_npm/vant-weapp/collapse-item/index",
+    "van-icon": "/miniprogram_npm/vant-weapp/icon/index",
+    "wux-fab-button": "/dist/fab-button/index",
+    "van-swipe-cell": "/miniprogram_npm/vant-weapp/swipe-cell/index",
+    "van-switch-cell": "/miniprogram_npm/vant-weapp/switch-cell/index",
+    "van-checkbox": "/miniprogram_npm/vant-weapp/checkbox/index",
+    "van-checkbox-group": "/miniprogram_npm/vant-weapp/checkbox-group/index",
+    "van-field": "/miniprogram_npm/vant-weapp/field/index",
+    "van-tree-select": "/miniprogram_npm/vant-weapp/tree-select/index",
+    "van-card": "/miniprogram_npm/vant-weapp/card/index"
+  }
+}
